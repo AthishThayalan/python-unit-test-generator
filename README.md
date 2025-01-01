@@ -14,7 +14,6 @@ A Gradio-based web application that automatically generates unit tests for Pytho
 Before running this application, make sure you have:
 
 - Python 3.8 or higher
-- An OpenAI API key
 
 ## Installation
 
@@ -27,11 +26,6 @@ cd python-unit-test-generator
 2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
-```
-
-3. Create a `.env` file in the project root directory and add your OpenAI API key:
-```env
-OPENAI_API_KEY=your_api_key_here
 ```
 
 ## Project Structure
