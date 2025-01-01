@@ -25,6 +25,8 @@ cd python-unit-test-generator/src
 
 2. Install the required dependencies:
 ```bash
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
