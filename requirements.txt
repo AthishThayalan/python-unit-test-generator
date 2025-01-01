@@ -3,7 +3,7 @@ openai>=1.12.0
 
 # Environment variables
 python-dotenv>=1.0.0
-
+pytest>=8.0.0
 # UI Framework
 gradio>=4.19.0
 

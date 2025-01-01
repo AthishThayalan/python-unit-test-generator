@@ -1,4 +1,4 @@
-from .ui import UnitTestGeneratorUI
+from src.ui import UnitTestGeneratorUI
 
 if __name__ == "__main__":
     app = UnitTestGeneratorUI()

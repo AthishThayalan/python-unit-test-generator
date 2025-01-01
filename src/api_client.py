@@ -17,6 +17,13 @@ class OpenAIClient:
             "Output only the code for the test cases, without any additional explanation."
         )
 
+    def _clean_test_code(self, code):
+        """Remove markdown code blocks and clean up the code."""
+
+        code = code.replace('```python', '').replace('```', '')
+        code = code.strip()
+        return code
+
     def generate_unit_tests(self, python_script):
         completion = self.client.chat.completions.create(
             model="gpt-4o-mini",
@@ -25,4 +32,5 @@ class OpenAIClient:
                 {"role": "user", "content": python_script}
             ]
         )
-        return completion.choices[0].message.content
+        generated_code = completion.choices[0].message.content
+        return self._clean_test_code(generated_code)
