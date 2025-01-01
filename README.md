@@ -20,7 +20,7 @@ Before running this application, make sure you have:
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/python-unit-test-generator.git
-cd python-unit-test-generator
+cd python-unit-test-generator/src
 ```
 
 2. Install the required dependencies:
