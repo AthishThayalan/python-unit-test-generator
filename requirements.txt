@@ -1,0 +1,13 @@
+# OpenAI API
+openai>=1.12.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# UI Framework
+gradio>=4.19.0
+
+# Development dependencies
+black>=24.1.1  # Code formatting
+pytest>=8.0.0  # Testing
+flake8>=7.0.0  # Linting
