@@ -1,6 +1,6 @@
 # Python Unit Test Generator
 
-A Gradio-based web application that automatically generates unit tests for Python code using OpenAI's GPT-4o-mini API.
+A Gradio-based web application that automatically generates unit tests for Python code using OpenAI's GPT-4o-mini API and runs them !
 
 ## Features
 
